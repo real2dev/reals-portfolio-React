@@ -1,0 +1,91 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://i.redd.it/csro1lan6v091.jpg');
+}
+.home-text {
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  font-style: normal;
+  margin-top: 128px;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-sixunits);
+  animation-name: fadeOut;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.home-text:hover {
+  left: 586px;
+  position: static;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.home-text01 {
+  font-size: 110px;
+}
+.home-text03 {
+  width: auto;
+  height: auto;
+  font-size: 46px;
+  margin-top: 0px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  animation-name: fadeOut;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+.home-text03:hover {
+  left: 586px;
+  position: static;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.home-text04 {
+  color: #ffffff;
+  font-weight: 400;
+}
+.home-text05 {
+  color: #ffffff;
+  font-weight: 400;
+}
+.home-text06 {
+  color: #ffffff;
+  font-weight: 400;
+}
+.home-text07 {
+  color: #ffffff;
+  font-style: normal;
+}
+.home-text08 {
+  color: #5edff9;
+  font-style: normal;
+  text-decoration: underline;
+}
+.home-text09 {
+  color: #ffffff;
+  font-style: normal;
+}
